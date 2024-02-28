@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="cafe" sizes="32*32" href="icons/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Nature Cafe</title>
+</head>
+<html>
+
+<body>
+
+    <header>
+        <div class="nav-icon" onclick="toggleNavbar()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <img src="icons/logo.ico" alt="logo">
+    </header>
+
+    <div class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+    </div>
+
+    <!-- Home Page -->
+    <section class="home-content" id="home">
+
+        <div class="head-page">
+            <h1 class="animate__animated animate__flash "> We Are Nature </h1>
+        </div>
+
+        <div class="picture-container">
+            <div class="items">
+                <img class="menu-picture" src="picture/Menu.png" alt="Menu">
+            </div>
+
+            <div class="items">
+                <div class="picture-detail">
+                    <img src="picture/nature-cafe.png" alt="nautre cafe">
+                </div>
+                <br>
+                <div class="picture-detail">
+                    <img style="height: 111.39px;" src="picture/solar-panel.png" alt="solar Panel">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <!-- menu page-->
+    <section id="menu">
+        <div class="menu-header">
+            <h3> <b> Here is ZERO WASTE PLASTIC ZOONE </b> </h3>
+        </div>
+
+        <div class="menu-photo">
+            <img class="animate__animated animate__backInLeft " src="picture/Menu.png" alt="about menu picture">
+        </div>
+    </section>
+    <br>
+
+    <section id="about">
+        <div class="video-container">
+            <video controls src="video/about.mp4"></video>
+        </div>
+
+        <div class="about-container">
+            <div class="about-items">
+                <img class="about-picture" src="picture/ice-coffee.jpg" alt="ice-coffee">
+            </div>
+
+            <div class="about-items">
+                <img class="about-picture" src="picture/coffee.jpg" alt="coffee">
+            </div>
+            <div class="about-items">
+                <img class="about-picture" src="picture/icecream.jpg" alt="icecream">
+            </div>
+            <div class=" about-items">
+                <div class="text-box">
+                    <p><b>After a successful year of different activities SSC came up with their latest idea: “We are
+                            Nature
+                            Cafe". Unlike your traditional coffee shop, “We Are Nature Cafe" is not an ordinary place
+                            for
+                            students and staff to go and have a cup of coffee during their free times. On the contrary,
+                            this
+                            is a self-sustaining center that seeks to bring together environmental and economic
+                            sustainability. Our cafe is used as a tool to reduce the waste on campus and to educate
+                            students
+                            regarding the adverse effects of single-use plastic.</b></p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="location">
+            <span class="fix-icon"> <img src="icons/map-pin.svg" alt="location"> </span>
+            <span class="location-icon">
+                <b> NICOSIA,CYPRUS INTERNATIONAL UNIVERSITY,NATURE CAFE </b>
+            </span>
+            <!-- here is two div one of them is adddres , mail-->
+            <div class="mail-icon">
+                <span> <img src="icons/mail.svg" alt="mail"> </span>
+                <span> <b> info@ciu.edu.tr </b></span>
+            </div>
+        </div>
+        <br>
+
+        <div class="telephone">
+            <span> <img src="icons/phone-call.svg" alt="phone-call"> </span>
+            <span> <b>+90 392 671 1111</b> </span>
+        </div>
+
+        <div class="instagram-icon">
+            <span> <img src="icons/instagram.svg" alt="instagram"> </span>
+            <span> <b> NATURECAFECIU </b> </span>
+        </div>
+
+        <br>
+
+    </footer>
+    <script>
+        function toggleNavbar() {
+            var navbar = document.getElementById("navbar");
+            navbar.classList.toggle("responsive");
+
+            var navIcon = document.querySelector(".nav-icon");
+            navIcon.classList.toggle("change");
+        }
+    </script>
+</body>
+
+</html>
