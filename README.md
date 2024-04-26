@@ -8,8 +8,8 @@
 # Menu Page
 ![Screenshot (58)](https://github.com/mOzariffard/nature-cafe/assets/131007236/3ed0d49e-9afd-4485-8541-d7a42b14299d)
 
-#About page
+# About page
 ![Screenshot (59)](https://github.com/mOzariffard/nature-cafe/assets/131007236/a2d124ae-a834-4c2f-a3d0-ad65b62fba1e)
 
-#About Page and footer
+# About Page and footer
 ![Screenshot (60)](https://github.com/mOzariffard/nature-cafe/assets/131007236/f0259f5d-eaef-4922-8881-2f850d106681)
