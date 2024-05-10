@@ -1,4 +1,5 @@
 ﻿# nature-cafe
+ ## <a href="https://mozariffard.github.io/nature-cafe/">Live Preview</a>
 # Home Page
 ![Screenshot (56)](https://github.com/mOzariffard/nature-cafe/assets/131007236/33d7fd51-b8af-4404-b892-d83999066526)
 
